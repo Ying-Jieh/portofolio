@@ -162,9 +162,9 @@ h3 {
 
 /* Hero Section Style */
 .hero-section {
-    display: grid;
+    display: grid; /* split into two section */
     grid-template-columns: repeat(2, 1fr);
-    padding: 133.333px 85.333px 133.333px;
+    padding: 133.333px 85.333px;
     align-items: center;
     justify-content: space-between;
     gap: 32px;
@@ -173,7 +173,7 @@ h3 {
 
 .hero-section-content-box {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* split the content virtically */
     align-items: flex-start;
     gap: 32px;
 }
