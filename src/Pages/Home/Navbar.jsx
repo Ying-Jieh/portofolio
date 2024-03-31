@@ -11,6 +11,7 @@ function Navbar() {
     }
 
     useEffect(() => {
+        // This function is called whenever the window is resized.
         const handleResize = () => {
             if (window.innerWidth <= 500) {
                 closeMenu();
@@ -18,6 +19,7 @@ function Navbar() {
         };
 
         window.addEventListener("resize", handleResize);
+        // This is the cleanup function for the effect
         return () => {
             window.removeEventListener("resize", handleResize);
         }
