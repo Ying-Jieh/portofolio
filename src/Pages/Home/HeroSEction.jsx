@@ -1,7 +1,7 @@
 export default function HeroSection() {
     return (
         <section id="heroSection" className="hero-section">
-           <div className="hero-section-content-box">
+            <div className="hero-section-content-box">
                 <div className="hero-section-content">
                     <p className="section-title">Hey, I'm Chris</p>
                     <h1 className="hero-section-title">
@@ -17,11 +17,11 @@ export default function HeroSection() {
                         I am looking for a full stack developer intern.
                     </p>
                 </div>
-                <button className="btn-primary">Get In Touch</button>
-                <div className="hero-section-img">
-                    <img src="./img/hero_img.png" alt="Hero Section" />
-                </div>
-            </div> 
+                <button className="btn btn-primary">Get In Touch</button>
+            </div>
+            <div className="hero-section-img">
+                <img src="./img/hero_img.png" alt="Hero Section" />
+            </div>
         </section>
     );
 }
