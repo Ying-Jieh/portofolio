@@ -10,19 +10,19 @@
             "id": "2",
             "src": "./img/tag-1.png",
             "title": "Back-End",
-            "description": "Here is my front-end skill!"
+            "description": "Here is my back-end skill!"
         },
         {
             "id": "3",
             "src": "./img/feather-pen-2.png",
             "title": "UI/UX Design",
-            "description": "Here is my front-end skill!"
+            "description": "Here is my UI/UX Design skill!"
         },
         {
             "id": "4",
             "src": "./img/feather-pen-1.png",
             "title": "Webflow Development",
-            "description": "Here is my front-end skill!"
+            "description": "Here is my Webflow Development skill!"
         }
     ]
 }
