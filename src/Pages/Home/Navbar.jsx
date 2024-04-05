@@ -36,6 +36,8 @@ function Navbar() {
             <div>
                 <img src="./img/logo.svg" alt="Logoipsum" />
             </div>
+
+            {/* eslint-disable jsx-a11y/anchor-is-valid */}
             <a className={`nav_hamburger ${navActive ? "active" : ""}`} onClick={toggleNav}>
                 <span className='nav_hamburger_line'></span>
                 <span className='nav_hamburger_line'></span>
@@ -81,7 +83,7 @@ function Navbar() {
                             smooth={true} 
                             offset={-70} 
                             duration={500} 
-                            to="Testimonials" 
+                            to="testimonial" 
                             className="navbar-content">Testimonials</Link>
                     </li>
                 </ul>
@@ -93,7 +95,8 @@ function Navbar() {
                 offset={-70} 
                 duration={500} 
                 to="Contact" 
-                className="navbar-btn btn-outline-primary">Contact Me</Link>
+                className="btn btn-outline-primary">Contact Me
+            </Link>
         </nav>
     );
 }
