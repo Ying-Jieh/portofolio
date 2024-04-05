@@ -48,5 +48,32 @@
             "description": "portfolio 3 description",
             "link": "View In GitHub"
         }
+    ],
+
+    "testimonial": [
+        {
+            "id": "1",
+            "count": "5",
+            "src": "./img/avatar-image.png",
+            "description": "portfolio 1 description",
+            "author_name": "Dianne Russel",
+            "author_desgination": "Starbucks"
+        },
+        {
+            "id": "2",
+            "count": "5",
+            "src": "./img/avatar-image-1.png",
+            "description": "portfolio 1 description",
+            "author_name": "Kristin Watson",
+            "author_desgination": "Louis Vuitton"
+        },
+        {
+            "id": "3",
+            "count": "5",
+            "src": "./img/avatar-image-2.png",
+            "description": "portfolio 1 description",
+            "author_name": "Kathryn Murpyh",
+            "author_desgination": "McDonald's"
+        }
     ]
 }
