@@ -53,7 +53,7 @@ function Navbar() {
                             smooth={true} 
                             offset={-70} 
                             duration={500} 
-                            to="heroSection" 
+                            to="heroSection" // To the id "heroSection"
                             className="navbar-content">Home</Link>
                     </li>
                     <li>
