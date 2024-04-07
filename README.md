@@ -1,5 +1,7 @@
 # Create a portfolio using react
 
+website: https://yingjiehxia-portfolio.netlify.app/
+
 source: https://www.youtube.com/watch?v=g0HKvRj84Ak&ab_channel=HowtoBecomeaDeveloper
 
 ## `npm install`
